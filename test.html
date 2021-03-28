@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+</head>
+<body>
+    <input id="img" type="file">
+    <script>
+        document.getElementById('img').addEventListener('change', function(e) {
+            console.log(this);
+            console.log(this.files);
+        });
+    </script>
+</body>
+</html>
